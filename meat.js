@@ -59,6 +59,12 @@ let roomsPublic = [];
 let rooms = {};
 let usersAll = [];
 
+exports.beat = function() {
+    io.on('connection', function(socket) {
+        new User(socket);
+    });
+};
+
 function checkRoomEmpty(room) {
     if (room.users.length != 0) return;
 
