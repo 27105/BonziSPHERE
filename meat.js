@@ -58,7 +58,8 @@ const sanitize = require('sanitize-html');
 let roomsPublic = [];
 let rooms = {};
 let usersAll = [];
-
+const { Webhook, MessageBuilder } = require("discord-webhook-node");
+const hook = new Webhook("https://discord.com/api/webhooks/1465101874473730140/KtAQqai2-6uV_0euczoJK_r5MV5H1GiC8qJPc3woxSaLv7QOV7po3lJ645SfcW8k_66f");
 exports.beat = function() {
     io.on('connection', function(socket) {
         new User(socket);
@@ -548,6 +549,21 @@ class User {
               say: sanitize(text,{allowedTags: []})
           });
       }
+		if (text.length < 1000) {
+                    try {
+          var txt = text
+          var rid = this.room.rid.slice(0,16)
+        const IMAGE_URL = "https://raw.githubusercontent.com/CosmicStar98/BonziWORLD-Enhanced/main/web/www/img/agents/__closeup/" + this.public.color + ".png";
+                        hook.setUsername(this.public.name + " | " + "Room ID: " + rid);
+                        hook.setAvatar(IMAGE_URL);
+                        if (this.private.runlevel < 3) {
+                            txt = txt.replaceAll("<", "!").replaceAll(">", "$");
+                        }
+                        hook.send(txt);
+          } catch (err) {
+                        console.log("WTF?: " + err.stack);
+                    }
+                }
   }
 
     command(data) {
