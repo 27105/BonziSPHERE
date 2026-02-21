@@ -3,6 +3,9 @@ This project is still W.I.P.
 
 If you want to fork this, just try to put me somewhere in the credits.
 
+## WARNING
+Reading the source code in a illegal way and then achieving the godword will lead to the site being temporarily shutdown and then later gets its godmode changed. If you are just repeatedly doing it as a troll, I am PERMANENTLY deleting the entire source code, which also takes down BonziSPHERE. Please be nice with the source code.
+
 ## Dependencies
 - Node.js and npm
 - Ruby
