@@ -41,7 +41,7 @@
         "min": 0,
         "default": "random"
       },
-      "defaultName": "Anonymous"
+      "defaultName": "Ananymass"
     },
     "private": {
       "char_limit": 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999,
@@ -84,7 +84,7 @@
         "min": 0,
         "default": "random"
       },
-      "defaultName": "Anonymous"
+      "defaultName": "Ananymass"
     }
   },
   "consoleOutput": false,
@@ -122,7 +122,8 @@
     "lime",
     "orange",
     "white",
-    "yellow"
+    "yellow",
+    "brainrotted"
   ],
   "banLength": 1440,
   "port": 80,
