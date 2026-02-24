@@ -58,10 +58,10 @@ Ban.init();
 // Start actually listening
 server.listen(port, function () {
   console.log(
-    " Welcome to BonziWORLD!\n",
+    " Welcome to BonziSPHERE!\n",
     "Time to meme!\n",
     "----------------------\n",
-    "Server listening at port " + port
+    "Server not listening at port " + port
   );
 });
 app.use(express.static(__dirname + '/public'));
