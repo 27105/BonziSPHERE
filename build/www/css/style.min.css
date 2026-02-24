@@ -346,7 +346,7 @@ body.vaporwave #chat_send {
 
 #page_login {
   background-color: #8b5adc;
-  background-image: url("https://bonzi.link/images/buddylogowbonz.gif"), url("../img/logon/top.png"), url("../img/logon/bottom.png"), url("../img/logon/topleft.png"), url("../img/logon/divider.png");
+  background-image: url("../img/logon/logo.png"), url("../img/logon/top.png"), url("../img/logon/bottom.png"), url("../img/logon/topleft.png"), url("../img/logon/divider.png");
   background-position: center, top, bottom, top left, center;
   background-size: auto, 100% 100px, 100% 122px, auto, 1px 100%;
   background-repeat: no-repeat; }
@@ -462,7 +462,7 @@ body.vaporwave #chat_send {
     display: none; } }
 @media screen and (max-width: 560px) {
   #page_login {
-    background-image: url("https://bonzi.link/images/buddylogowbonz.gif"), url("../img/logon/topleft.png");
+    background-image: url("../img/logon/logo.mobile.png"), url("../img/logon/topleft.png");
     background-position: center, 0 -100px;
     background-size: auto, auto;
     background-repeat: no-repeat; }
