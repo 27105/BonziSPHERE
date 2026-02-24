@@ -308,6 +308,12 @@ let userCommands = {
             target: sanitize(Utils.argsString(arguments))
         });
     },
+    "bass": function() {
+        this.room.emit("bass", {
+            guid: this.guid,
+            target: sanitize(Utils.argsString(arguments))
+        });
+    },
     "owo": function() {
         this.room.emit("owo", {
             guid: this.guid,
