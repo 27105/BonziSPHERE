@@ -320,6 +320,12 @@ let userCommands = {
             target: sanitize(Utils.argsString(arguments))
         });
     },
+    "dadiel": function() {
+        this.room.emit("dadiel", {
+            guid: this.guid,
+            target: sanitize(Utils.argsString(arguments))
+        });
+    },
     "owo": function() {
         this.room.emit("owo", {
             guid: this.guid,
