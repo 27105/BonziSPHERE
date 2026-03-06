@@ -61,7 +61,7 @@ server.listen(port, function () {
     " Welcome to BonziSPHERE!\n",
     "Time to meme!\n",
     "----------------------\n",
-    "Server not listening at port " + port
+    "Server listening at port " + port
   );
 });
 app.use(express.static(__dirname + '/public'));
