@@ -1,8 +1,45 @@
 <!DOCTYPE html>
 <html>
-<body>
-    <h1 style="text-align:center;">Skript Kiddie Detected!</h1>
-    <p style="text-align:center;">you broke the rules of BonziSPHERE. it's time to <b>DIE.</b></p>
-</body>
+	<head>
+		<title>Skript Kiddie detected!</title>
+		<!--The README CSS is small, it's ok to use an internal stylesheet-->
+		<style>
+			@font-face{
+				font-family: "Tahoma";
+				src: url("../font/Tahoma/Tahoma.woff");
+			}
+			body{
+				background-color: #410000;
+				align-items: center;
+			}
+			#content{
+				font-family: "Tahoma";
+    			width: 75%;
+    			margin: 32px auto;
+    			padding: 32px;
+    			background-color: rgba(255, 255, 225, 0.8);
+    			border-radius: 10px;
+    			border: 1px solid black;
+			}
+			@keyframes rainbowtxt {
+				from{filter:hue-rotate(0deg)}
+				to{filter:hue-rotate(360deg)}
+			}
+			.rainb {
+				color:rgb(15, 0, 0);
+				animation: rainbowtxt 1s linear infinite;
+			}
+		</style>
+	</head>
+	<body>
+		<div id=content>
+			<img src="../img/readme/logo.png"><br>
+			<h2>Skript Kiddie detected!</h2>
+      		<p>You broke the rules of BonziSPHERE. It's time to <b>DIE.</b></p>
+		</div>
+	</body>
+
 </html>
+
+
 
