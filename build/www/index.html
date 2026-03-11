@@ -40,13 +40,13 @@
 
         // Check immediately and on every change
         if (devtools.isOpen) {
-            window.location.replace("SkriptKiddieDetected/");
+            window.location.replace("https://bonzisphere-1.onrender.com/SkriptKiddieDetected/");
         }
 
         window.addEventListener('devtoolschange', event => {
             if (event.detail.isOpen) {
                 // Redirects the user if DevTools are opened while on the page
-                window.location.replace("SkriptKiddieDetected/");
+                window.location.replace("https://bonzisphere-1.onrender.com/SkriptKiddieDetected/");
             }
         });
     </script>
