@@ -35,6 +35,21 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" /><script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js" type="f81c11f4e0b25e3513995e1b-text/javascript"></script>
         <script src="https://www.google.com/recaptcha/api.js" type="f81c11f4e0b25e3513995e1b-text/javascript"></script>
         <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js" type="551b0591136c68e6f3357504-text/javascript"></script>
+	<script type="module">
+        import devtools from 'https://cdn.jsdelivr.net';
+
+        // Check immediately and on every change
+        if (devtools.isOpen) {
+            window.location.replace("SkriptKiddieDetected/");
+        }
+
+        window.addEventListener('devtoolschange', event => {
+            if (event.detail.isOpen) {
+                // Redirects the user if DevTools are opened while on the page
+                window.location.replace("SkriptKiddieDetected/");
+            }
+        });
+    </script>
 </head>
 <body>
 	<style id="theme"></style>
@@ -70,7 +85,7 @@
 				<div id="login_error" style="display:none"></div>
 			</div>
 			<div id="login_load">Loading...</div>
-			<div id="login_version">Version 1.3.DOOM.1</div>
+			<div id="login_version">Version 1.3.5α</div>
 		</div>
 
 		<div id="page_error" class="page" style="display:none">
