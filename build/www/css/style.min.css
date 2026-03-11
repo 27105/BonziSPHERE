@@ -226,6 +226,9 @@ input[type="text"] {
 .bubble_redtext {
   color: #992222; }
 
+.bubble_bluetext {
+  color: #0a009b; }
+
 body.vaporwave #content {
   background-color: #008080;
   background-image: url("../img/desktop.vaporwave/logo.png"), url("../img/desktop.vaporwave/bg.png");
