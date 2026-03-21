@@ -1,4 +1,4 @@
-# BonziWORLD
+# BonziSPHERE
 This project is still W.I.P.
 
 If you want to fork this, just try to put me somewhere in the credits.
