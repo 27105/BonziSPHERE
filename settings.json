@@ -3,7 +3,7 @@
     "public": {
       "char_limit": 2500,
       "name_limit": 25,
-      "godword": "RPSosu!3424326198363428192346432891",
+      "godword": "248",
       "runlevel": {
         "godmode": 0,
         "youtube": 0,
@@ -37,13 +37,13 @@
       "room_max": 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999,
       "owner": null,
       "pitch": {
-        "max": 500,
-        "min": 0,
+        "max": 125,
+        "min": 15,
         "default": "random"
       },
       "speed": {
-        "max": 450,
-        "min": 0,
+        "max": 275,
+        "min": 15,
         "default": "random"
       },
       "defaultName": "Ananymass"
@@ -51,7 +51,7 @@
     "private": {
       "char_limit": 2500,
       "name_limit": 25,
-      "godword": "RPSosu!3424326198363428192346432891",
+      "godword": "248",
       "runlevel": {
         "godmode": 0,
         "youtube": 0,
