@@ -338,6 +338,12 @@ let userCommands = {
             target: sanitize(Utils.argsString(arguments))
         });
     },
+    "smallbrain": function() {
+        this.room.emit("smallbrain", {
+            guid: this.guid,
+            target: sanitize(Utils.argsString(arguments))
+        });
+    },
     "owo": function() {
         this.room.emit("owo", {
             guid: this.guid,
