@@ -80,7 +80,7 @@ const Utils = require("./utils.js")
 // The Beef(TM)
 // ========================================================================
 
-const Meat = require("./meat.js");
+const Meat = require("./meat.ts");
 Meat.beat();
 
 // Console commands
