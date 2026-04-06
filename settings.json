@@ -84,7 +84,7 @@
         "pope": 3,
         "god": 3
       },
-      "room_max": 1e999,
+      "room_max": "Infinity",
       "owner": null,
       "pitch": {
         "max": 500,
