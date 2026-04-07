@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<!--
-The entire code here wasn't made by Rowen himself. He doesn't even know how to code.
--->
 <html>
 <head>
     <title>BonziSPHERE</title>
@@ -12,30 +8,30 @@ The entire code here wasn't made by Rowen himself. He doesn't even know how to c
     <!--
     Empty space.
     -->
-    <link rel="stylesheet" type="text/css" href="./css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.min.css">
     <link rel="stylesheet" href="https://botoxparty.github.io/XP.css/XP.css">
     <meta property="og:site_name" content="BonziSPHERE">
     <meta property="og:keywords" content="BonziSPHERE, bonzisphere, bzs, BZS, BonziSphere, Bonzisphere, bonziSPHERE">
     <meta property="og:description" content="Leading the industry in gorilla-based chat clients." />
-    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="./favicons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="./favicons/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="./favicons/manifest.json">
-    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="./favicons/favicon.ico">
-    <meta name="msapplication-config" content="./favicons/browserconfig.xml">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="../favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="../favicons/manifest.json">
+    <link rel="mask-icon" href="../favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="../favicons/favicon.ico">
+    <meta name="msapplication-config" content="../favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <script type="551b0591136c68e6f3357504-text/javascript" id="www-widgetapi-script" src="https://www.youtube.com/s/player/997fe684/www-widgetapi.vflset/www-widgetapi.js" async></script>
-    <script src="./js/lib/easeljs.min.js"></script>
-    <script src="./js/lib/preloadjs-0.6.2.min.js"></script>
-    <script src="./js/lib/jquery.min.js"></script>
+    <script src="../js/lib/easeljs.min.js"></script>
+    <script src="../js/lib/preloadjs-0.6.2.min.js"></script>
+    <script src="../js/lib/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-    <script src="./js/lib/seedrandom.min.js"></script>
-    <script src="./js/lib/socket.io-1.4.5.js"></script>
-    <script src="./js/lib/espeak/espeak.js"></script>
-    <script src="./js/lib/jquery.contextMenu.min.js"></script>
-    <script src="./js/platform.js"></script>
-    <script src="./js/script.min.js"></script>
+    <script src="../js/lib/seedrandom.min.js"></script>
+    <script src="../js/lib/socket.io-1.4.5.js"></script>
+    <script src="../js/lib/espeak/espeak.js"></script>
+    <script src="../js/lib/jquery.contextMenu.min.js"></script>
+    <script src="../js/platform.js"></script>
+    <script src="../js/script.min.js"></script>
     <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous" type="f81c11f4e0b25e3513995e1b-text/javascript"></script>
     <script src="https://kit.fontawesome.com/7eb4dccc86.js" crossorigin="anonymous" type="f81c11f4e0b25e3513995e1b-text/javascript"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
@@ -80,12 +76,11 @@ The entire code here wasn't made by Rowen himself. He doesn't even know how to c
                 <div id="login_error" style="display:none"></div>
             </div>
             <div id="login_load">Loading...</div>
-            <!--<div id="login_version">Version 1.4.0</div>-->
         </div>
 
         <div id="page_error" class="page" style="display:none">
             <div id="error_cont" class="message_cont">
-                <img src="./img/error/logo.png"><br>
+                <img src="../img/error/logo.png"><br>
                 <br>
                 <h1>You've been crashed.</h1><br>
                 Nah, but seriously there was an error and you got disconnected from the server. Chances are, your internet just died out for a brief moment or your device went to sleep. Otherwise the server just screwed up.<br>
@@ -101,7 +96,7 @@ The entire code here wasn't made by Rowen himself. He doesn't even know how to c
         </div>
         <div id="page_ban" class="page" style="display:none">
             <div id="ban_cont" class="message_cont">
-                <img src="./img/ban/logo.png"><br>
+                <img src="../img/ban/logo.png"><br>
                 <br>
                 <h1>You've been banned.</h1><br>
                 <br>
@@ -113,7 +108,7 @@ The entire code here wasn't made by Rowen himself. He doesn't even know how to c
         </div>
         <div id="page_kick" class="page" style="display:none">
             <div id="kick_cont" class="message_cont">
-                <img src="./img/ban/logo.png"><br>
+                <img src="../img/ban/logo.png"><br>
                 <br>
                 <h1>You've been kicked.</h1><br>
                 <br>
@@ -124,7 +119,7 @@ The entire code here wasn't made by Rowen himself. He doesn't even know how to c
 
         <div id="page_unsupp" class="page" style="display:none">
             <div id="unsupp_cont" class="message_cont">
-                <img src="./img/error/logo.png"><br>
+                <img src="../img/error/logo.png"><br>
                 <br>
                 <h1>BonziSPHERE cannot run on this platform.</h1><br>
                 Unfortunately, BonziSHPERE cannot run in this browser for the following reasons:<br>
