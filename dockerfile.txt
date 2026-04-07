@@ -1,0 +1,18 @@
+# 1. Use a Node.js base image (matches your Node requirement)
+FROM node:18-bullseye
+
+# 2. Install PHP (this is the "extra" part you need)
+RUN apt-get update && apt-get install -y php-cli php-cgi
+
+# 3. Set the directory for your code
+WORKDIR /app
+
+# 4. Copy your GitHub repo files into the container
+COPY . .
+
+# 5. YOUR BUILD COMMAND: Install node dependencies
+RUN npm install
+
+# 6. YOUR START COMMAND: Run your node app
+# Using the array format is best practice for Docker
+CMD ["node", "index.js"]
