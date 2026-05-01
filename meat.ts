@@ -322,8 +322,8 @@ let userCommands = {
     },
     "dadiel": function() {
         this.room.emit("dadiel", {
-            // guid: this.guid,
-            // target: sanitize(Utils.argsString(arguments))
+            guid: this.guid,
+            target: sanitize(Utils.argsString(arguments))
         });
     },
     "askuser": function() {
