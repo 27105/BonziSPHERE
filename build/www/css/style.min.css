@@ -500,7 +500,7 @@ body.vaporwave #chat_send {
   box-sizing: border-box;
   overflow: auto; }
 
-#page_error, #page_ban, #page_unsupp {
+#page_error, #page_ban, #page_unsupp, #page_welcome {
   background-color: rgba(0, 0, 0, 0.5); }
 
 /*!
