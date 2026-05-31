@@ -35,7 +35,7 @@
         "pope": 3,
         "god": 3
       },
-      "room_max": 49,
+      "room_max": 33550336,
       "owner": null,
       "pitch": {
         "max": 125,
