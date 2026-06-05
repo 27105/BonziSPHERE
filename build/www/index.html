@@ -45,9 +45,53 @@ The entire code here wasn't made by Rowen himself. He doesn't even know how to c
     <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous" type="f81c11f4e0b25e3513995e1b-text/javascript"></script>
     <script src="https://kit.fontawesome.com/7eb4dccc86.js" crossorigin="anonymous" type="f81c11f4e0b25e3513995e1b-text/javascript"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <style>
+        /* Styling for the floating corner box */
+        #rowen-age-box {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #2c3e50;
+            color: #ffffff;
+            padding: 15px 25px;
+            border-radius: 8px;
+            font-family: 'Arial', sans-serif;
+            font-weight: bold;
+            font-size: 18px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            z-index: 9999;
+        }
+    </style>
     <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js" type="f81c11f4e0b25e3513995e1b-text/javascript"></script>
     <script src="https://www.google.com/recaptcha/api.js" type="f81c11f4e0b25e3513995e1b-text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js" type="551b0591136c68e6f3357504-text/javascript"></script>
+<script>
+    function updateRowenAge() {
+        const birthDate = new Date('2009-06-05');
+        const today = new Date();
+        
+        // Calculate the base year difference
+        let age = today.getFullYear() - birthDate.getFullYear();
+        
+        // Check if the birthday has occurred yet this year
+        const currentMonth = today.getMonth(); // 0-11
+        const currentDay = today.getDate();
+        
+        if (currentMonth < birthDate.getMonth() || 
+           (currentMonth === birthDate.getMonth() && currentDay < birthDate.getDate())) {
+            age--; // Subtract 1 if the birthday hasn't happened yet this year
+        }
+
+        // Update the text in the floating box
+        document.getElementById('rowen-age-box').innerText = `ROWEN IS NOW (${age} YEARS OLD)`;
+    }
+
+    // Run the function as soon as the page loads
+    updateRowenAge();
+
+    // (Optional) Update the age daily in case the page is left open overnight on a birthday
+    setInterval(updateRowenAge, 24 * 60 * 60 * 1000);
+</script>
     <!--<meta http-equiv="refresh" content="0; url=https://27105.github.io">-->
 </head>
 <body>
