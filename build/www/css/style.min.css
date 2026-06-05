@@ -507,8 +507,8 @@ body.vaporwave #chat_send {
     background-color: #0078D7; /* Windows Blue */
     color: #FFFFFF;
     font-family: 'Segoe UI', 'Tahoma', 'Helvetica Neue', sans-serif;
-    height: 50vh;
-    width: 50vw;
+    height: 100vh;
+    width: 100vw;
     margin: 0;
     padding: 15vh 10vw;
     box-sizing: border-box;
@@ -519,7 +519,7 @@ body.vaporwave #chat_send {
 
 /* The Sad Face */
 .bsod-sad-face {
-    font-size: 12rem;
+    font-size: 6rem;
     font-weight: lighter;
     line-height: 1;
     margin-bottom: 2rem;
@@ -527,7 +527,7 @@ body.vaporwave #chat_send {
 
 /* Primary Error Message */
 .bsod-message {
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: normal;
     max-width: 800px;
     margin-bottom: 2rem;
@@ -536,7 +536,7 @@ body.vaporwave #chat_send {
 
 /* Secondary Details/Instructions */
 .bsod-details {
-    font-size: 1.2rem;
+    font-size: 0.6rem;
     max-width: 600px;
     opacity: 0.8;
     line-height: 1.6;
@@ -545,7 +545,7 @@ body.vaporwave #chat_send {
 /* Progress indicator */
 .bsod-progress {
     margin-top: 3rem;
-    font-size: 1.5rem;
+    font-size: 0.75rem;
 }
 
 .bsod-progress span {
