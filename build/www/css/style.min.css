@@ -503,7 +503,7 @@ body.vaporwave #chat_send {
   background-color: rgba(0, 0, 0, 0.5); }
 
 /* BSOD Base Settings */
-#page_error, #page_ban, #page_unsupp {
+#page_error, #page_ban, #page_kick, #page_unsupp {
     background-color: #0078D7; /* Windows Blue */
     color: #FFFFFF;
     font-family: 'Segoe UI', 'Tahoma', 'Helvetica Neue', sans-serif;
