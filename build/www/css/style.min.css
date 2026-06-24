@@ -25,7 +25,7 @@ body, html {
   padding: 4px 3px;
   border: none;
   border-radius: 3px;
-  box-shadow: 2px 2px 2px #13316f;
+  box-shadow: 2px 2px 2px #696969;
   outline: none;
   background: #fff;
   color: #000; }
@@ -45,7 +45,7 @@ body, html {
   left: 50%; }
 
 body {
-  background-color: #421f60; }
+  background-color: #000000; }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -221,13 +221,13 @@ input[type="text"] {
 }
 
 .bubble_greentext {
-  color: #789922; }
+  color: #000000; }
 
 .bubble_bluetext {
-  color: #0a009b; }
+  color: #000000; }
 
 body.vaporwave #content {
-  background-color: #008080;
+  background-color: #000000;
   background-image: url("../img/desktop.vaporwave/logo.png"), url("../img/desktop.vaporwave/bg.png");
   background-position: top left, center;
   background-repeat: no-repeat; }
@@ -272,7 +272,7 @@ body.vaporwave #chat_send {
     background-position: 0 -56px; }
 
 #content {
-  background-color: #6d33a0;
+  background-color: #000000;
   background-image: url("../img/desktop/logo.png"), url("../img/desktop/bg.png");
   background-position: top left, center;
   background-repeat: no-repeat; }
@@ -326,7 +326,7 @@ body.vaporwave #chat_send {
   width: 100%; }
 
 #room_info {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(99, 99, 99, 0.5);
   font-weight: bold;
   line-height: 125%;
   text-align: right;
@@ -348,7 +348,7 @@ body.vaporwave #chat_send {
   background-image: url("../img/desktop/tile.png"); }
 
 #page_login {
-  background-color: #8b5adc;
+  background-color: #dadada;
   background-image: url("../img/logon/logo.png"), url("../img/logon/top.png"), url("../img/logon/bottom.png"), url("../img/logon/topleft.png"), url("../img/logon/divider.png");
   background-position: center, top, bottom, top left, center;
   background-size: auto, 100% 100px, 100% 122px, auto, 1px 100%;
@@ -375,7 +375,7 @@ body.vaporwave #chat_send {
   top: 100%;
   position: absolute;
   margin-top: 8px;
-  color: #d03b3b;
+  color: #535353;
   font-size: 12px;
   padding: 8px; }
 
@@ -504,7 +504,7 @@ body.vaporwave #chat_send {
 
 /* BSOD Base Settings */
 #page_error, #page_ban, #page_kick, #page_unsupp {
-    background-color: #0078D7; /* Windows Blue */
+    background-color: #000000; /* Windows Blue */
     color: #FFFFFF;
     font-family: 'Segoe UI', 'Tahoma', 'Helvetica Neue', sans-serif;
     height: 100vh;
@@ -609,7 +609,7 @@ body.vaporwave #chat_send {
   user-select: text; }
 
 .context-menu-item.context-menu-hover {
-  background-color: #316ac5;
+  background-color: #4c4e52;
   color: #FFF;
   cursor: pointer; }
 
@@ -693,7 +693,7 @@ body.vaporwave #chat_send {
 }
 
 .chat-log-titlebar {
-  background: #421f60;
+  background: #3f3f3f;
   padding: 5px;
   color: white;
   cursor: move;
